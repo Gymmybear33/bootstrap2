@@ -2,15 +2,15 @@ body {
     font-family: monospace;
     
 }
-.container {
+.container1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: 1px solid lightgray;
     padding: 15px;
     box-shadow: 0 3px 30px purple;
-    margin-top: 60px;
-    
+    margin: 60px 0;
+    background-color: gold;
 }
 
 h1 {
@@ -40,11 +40,7 @@ span:hover {
     
 }
 
-.line {
-    border-bottom: 10px solid grey;
-    margin: 60px 20px;
-    /* margin-bottom: 60px; */
-}
+
 
 h2 {
     text-align: center;
