@@ -1,5 +1,6 @@
 body {
     font-family: monospace;
+    
 }
 .container {
     display: flex;
@@ -9,6 +10,7 @@ body {
     padding: 15px;
     box-shadow: 0 3px 30px purple;
     margin-top: 60px;
+    
 }
 
 h1 {
@@ -36,4 +38,20 @@ span:hover {
     transition: .2s;
     background-color: green;
     
+}
+
+.line {
+    border-bottom: 10px solid grey;
+    margin: 60px 20px;
+    /* margin-bottom: 60px; */
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
 }
