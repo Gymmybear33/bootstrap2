@@ -8,7 +8,7 @@ body {
     justify-content: center;
     border: 1px solid lightgray;
     padding: 15px;
-    box-shadow: 0 3px 30px purple;
+    box-shadow: 0 3px 30px gray;
     margin: 60px 0;
     background-color: gold;
 }
@@ -44,10 +44,72 @@ span:hover {
 
 h2 {
     text-align: center;
-    
+    color: blue;
+    margin-bottom: 30px;
 }
 
 p {
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
+
+.ele {
+    /* display: flex; */
+    align-items: center;
+    box-shadow: 0 3px 30px gray;
+    margin: 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ele2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.bir {
+    /* display: flex; */
+    align-items: center;
+    /* box-shadow: 0 3px 30px gray; */
+    margin: 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.weird {
+    /* display: flex; */
+    align-items: center;
+    /* box-shadow: 0 3px 30px gray; */
+    margin: 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mon {
+    /* display: flex; */
+    align-items: center;
+    box-shadow: 0 3px 30px gray;
+    margin: 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.merged {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 30px gray;
+    margin: 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: stretch;
+    transition: .2s;
+}
+
+.merged:hover {
+    transform: scale(1.01);
+}
+
+
